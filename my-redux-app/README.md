@@ -12,12 +12,12 @@
 
 Redux News Aggregator is a modern full-stack web application that allows users to browse current news articles, search content in real time, filter by category, and participate in article discussions through a persistent comment system.
 
-The frontend is built with React and Redux Toolkit for scalable state management, while the backend uses Express and Supabase to handle authentication, comments, and API communication. News content is powered by the [NewsData.io API](https://newsdata.io/?utm_source=chatgpt.com).
+The frontend is built with React and Redux Toolkit for scalable state management, while the backend uses Express and Supabase to handle authentication, comments, and API communication. News content is powered by the [NewsData.io API](https://newsdata.io).
 
 The project supports both:
 
 * **Local development** using a locally hosted Express server
-* **Production deployment** with the frontend hosted on [Vercel](https://vercel.com?utm_source=chatgpt.com) and the backend hosted on [Render](https://render.com?utm_source=chatgpt.com)
+* **Production deployment** with the frontend hosted on [Vercel](https://vercel.com) and the backend hosted on [Render](https://render.com)
 
 ---
 
@@ -92,9 +92,9 @@ The project supports both:
 
 ## Deployment
 
-* Frontend: [Vercel](https://vercel.com?utm_source=chatgpt.com)
-* Backend: [Render](https://render.com?utm_source=chatgpt.com)
-* Database: [Supabase](https://supabase.com?utm_source=chatgpt.com)
+* Frontend: [Vercel](https://vercel.com)
+* Backend: [Render](https://render.com)
+* Database: [Supabase](https://supabase.com)
 
 ---
 
