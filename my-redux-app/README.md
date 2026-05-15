@@ -2,8 +2,9 @@
 
 > A full-stack news aggregation platform with real-time comments, category filtering, and authenticated discussions.
 
-**Live Demo:** [Redux News Aggregator Live Site](https://redux-news-rosy.vercel.app?utm_source=chatgpt.com)
-**API Health Check:** [Backend API Health Endpoint](https://redux-news.onrender.com/api/health?utm_source=chatgpt.com)
+**Live Demo:** [Redux News Aggregator Live Site](https://redux-news-rosy.vercel.app)
+
+**API Health Check:** [Backend API Health Endpoint](https://redux-news.onrender.com/api/health)
 
 ---
 
