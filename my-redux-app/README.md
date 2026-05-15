@@ -279,6 +279,17 @@ VITE_API_URL=https://redux-news.onrender.com
 
 ---
 
+# Challenges & Lessons Learned
+* Learned how to structure a full-stack application with separated frontend and backend deployments
+* Improved understanding of production environment variables across Vercel and Render
+* Gained experience handling CORS and API communication between services
+* Practiced scalable state management patterns using Redux Toolkit
+* Implemented debounced search functionality to optimize API requests
+* Worked with Supabase as a hosted PostgreSQL solution for persistent data storage
+* Learned how to manage different development and production API configurations
+* Discovered that long-running Express APIs were better suited for deployment on Render while keeping the React frontend on Vercel
+* Gained hands-on experience debugging deployment issues between frontend, backend, and database services
+
 # License
 
 MIT License
