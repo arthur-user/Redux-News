@@ -281,7 +281,7 @@ VITE_API_URL=https://redux-news.onrender.com
 ---
 
 # Challenges & Lessons Learned
-* Learned how to structure a full-stack application with separated frontend and backend deployments
+* Reinforced knowledge of structuring full-stack applications with separate frontend and backend deployments
 * Improved understanding of production environment variables across Vercel and Render
 * Gained experience handling CORS and API communication between services
 * Practiced scalable state management patterns using Redux Toolkit
