@@ -35,7 +35,7 @@ app.use("/api", authRouter);
 app.get('/api/health', (req, res) => {
   res.json({ success: true, message: 'Server is running' });
 });
-app.use("/api", authRouter);
+
 // Global error handler (MUST BE LAST - AFTER ALL ROUTES!)
 app.use((err, req, res, next) => {
   console.error('❌ ERROR:', err.stack);
