@@ -12,8 +12,20 @@ console.log('SUPABASE_ANON_KEY:', process.env.SUPABASE_ANON_KEY ? 'âœ… Set' : 'â
 const app = express();
 const PORT = process.env.PORT || 3001;
 
+
 // Middleware
-app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:5173' }));
+app.use(cors({ 
+  origin: function(origin, callback) {
+    // Allow localhost and all vercel.app domains
+    if (!origin || origin.includes('localhost') || origin.includes('vercel.app')) {
+      callback(null, true);
+    } else {
+      callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true
+}));
+
 app.use(express.json());
 
 // Routes (BEFORE error handler!)
